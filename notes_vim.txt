@@ -1,0 +1,76 @@
+" vim cheat sheet
+    
+" za            toggle sinlge fold
+" zo            open current fold
+" zc            close current fold
+" zj/k          move cursor to the next/previous fold
+" zfa}          create fold until closing {
+" zf/string     create a fold from the cursor to the first instance of string
+
+    FOLDS   {{{
+
+    }}}
+
+    WINDOWS     {{{
+
+    }}}
+
+    EXITING {{{
+q           quit but fails if there are changes
+q!          quit and do not save
+wq          write current file and exit
+wq!         write current file and force exit
+wq {file}   write file and exit
+wq! {file}  write file and force exit
+ZZ          write and exit same as wq
+ZQ          quit and exit same as q!
+    }}}
+
+    NAVIGATION  {{{
+gg          move cursor to top of file
+G           move cursor to end of file
+0           move cursor to the beginning of a line
+$           move cursor to the end of a line
+h/j/k/l     move cursor left/down/up/right one space
+    gj          move by screen lines (when wrapping text)
+    gk          move by screen lines (when wrapping text)
+w           move cursor to start of next word
+b           move cursor to start of last word
+e           move cursor to end of next word
+3G          move cursor to line 3
+-           move cursor up one line starting on first nonblank
++           move cursor down one line starting on first nonblank
+ge          move cursor backwards to the end of the next word
+    }}}
+
+    EDITING {{{
+    inserting
+i           insert at cursor
+a           insert after cursor
+A           insert after end of the line
+o           insert line below cursor
+O           insert line above cursor
+    copying
+yy          copy line
+y           copy highlighted text
+    pasting
+p           paste after cursor
+P           paste before cursor
+    deleting
+d           delete text
+dd          delete line
+D           delete chracters until the end of line
+x           delete character under the cursor
+X           delete character before the cursor
+    replacing
+r           replace character under the cursor
+R           replace character under the cursor like in insert mode
+    }}}
+
+    VISUAL MODE (HIGHLIGHT TEXT)    {{{
+v           start visual mode to highlight areas
+V           start visual mode to highlight areas by row
+ctrl v      start visual mode to highlight areas by column
+x           delete highlighted text
+X           delete highlighted text lines
+    }}}

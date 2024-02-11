@@ -1,0 +1,27 @@
+terminal cheat sheet
+
+" za            toggle sinlge fold
+" zo            open current fold
+" zc            close current fold
+" zj/k          move cursor to the next/previous fold
+" zfa}          create fold until closing {
+" zf/string     create a fold from the cursor to the first instance of string
+
+"    NAVIGATION     {{{ 
+cd          enter directory
+cd ..       navigate to the directory above
+cd ~        navigate to the user home directory
+cd /        navigate to the root directory
+
+ls          print out directory contents
+ls -a       print out all directory contents including hidden files
+"    }}}
+
+"    editing     {{{
+cp x y      copy x file to y file. include the dir as required
+
+mv x y      rename x file to y file. include the dir as required
+
+rm          delete a file
+rm -rf      delete a file. recursively. force
+"    }}}

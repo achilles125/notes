@@ -1,0 +1,16 @@
+" linux cheat sheet
+
+" za            toggle sinlge fold
+" zo            open current fold
+" zc            close current fold
+" zj/k          move cursor to the next/previous fold
+" zfa}          create fold until closing {
+" zf/string     create a fold from the cursor to the first instance of string
+
+" VISUAL SETUP  {{{
+
+Panel Preferences > General > Display > Output > Primary instead of Automatic (you can also explicitly set the monitor you need)
+Desktop > Icons > Appearance > Show icons on primary display (set the checkbox)
+Notifications > General > Behavior > Show notifications on: primary display
+
+" }}}
